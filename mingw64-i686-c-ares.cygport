@@ -14,4 +14,5 @@ SRC_DIR="c-ares-${VERSION}"
 
 DIFF_EXCLUDES="ares_build.h libtool.m4 lt*.*"
 
+CYGCONF_ARGS="--enable-debug --enable-optimize"
 MAKEOPTS+=" man_MANS= "
